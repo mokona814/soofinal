@@ -1,0 +1,143 @@
+
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: #fff;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.test{
+    width: 1366px;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-683px, 0px);
+
+}
+.container {
+  width: 1366px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-683px, 0px);
+  background-size: 100%;
+}
+#default{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: url(../images/blue.png) no-repeat;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+.box{
+  background-color: white;
+  position: absolute;
+  top:50px;
+  left:80px;
+  width:100px;
+  height:95px;
+  opacity:0.8;
+
+
+}
+.cont, .pers, .tex{
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 50px;
+  float:left;
+  color:black;
+  font-family:'Jura', sans-serif;
+  font-size: 17px;
+}
+
+.menu{
+  background-color: white;
+  position: absolute;
+  top:50px;
+  left:780px;
+  width:500px;
+  height:60px;
+opacity:0.8;
+}
+.menu2{
+
+  position: absolute;
+  top:700px;
+  left:770px;
+  width:750px;
+  height: 85px;
+  background: url(../images/tex_menu_2.png) no-repeat;
+  background-size:70%;
+  opacity:0.8;
+}
+
+.tex_1 {
+  position: absolute;
+  width:60px;
+  top:23px;
+left:24px;
+}
+.tex_2 {
+  position: absolute;
+  width:70px;
+  top:25px;
+left:120px;
+}
+.tex_3 {
+  position: absolute;
+  width:45px;
+  top:8px;
+left:237px;
+
+}
+.tex_4 {
+  position: absolute;
+  width:55px;
+  top:20px;
+left:335px;
+}
+
+.tex_5 {
+  position: absolute;
+  width:70px;
+  top:24px;
+left:430px;
+}
+.logo{
+  text-align: left;
+  position: relative;
+  padding-left: 10px;
+  padding-top: 5px;
+  float: left;
+  color:black;
+  font-family:'Jura', sans-serif;
+  font-size: 20px;
+}
+
+.label_box {
+  background-color: white;
+  position: absolute;
+  top:540px;
+  left:80px;
+  width:200px;
+  height:240px;
+  opacity:0.8;
+}
+.blue, .yellow, .multi, .red, .green {
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-right: 20px;
+  line-height:20px;
+  color:black;
+  font-family:'Quicksand', sans-serif;
+  font-size: 15px;
+  text-align: left;
+}
